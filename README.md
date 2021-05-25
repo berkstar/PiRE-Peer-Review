@@ -20,6 +20,24 @@ Application will facilitate teachers' classroom management and reviewing procedu
 7. Teachers can create polls for all students.
 8. Students can answer polls anonymously.
 9. The teacher can make reviews in group's documents.
+## Screenshots
+### 1.User Login
+![ScreenShot](/Screenshots/1.png)
+
+### 2. Instructor Register
+![ScreenShot](/Screenshots/2.png)
+
+### 3.Dashboard
+![ScreenShot](/Screenshots/3.png)
+
+### 4.Group Management
+![ScreenShot](/Screenshots/4.png)
+
+### 5.Reviews
+![ScreenShot](/Screenshots/5.png)
+
+### 6.Review Example
+![ScreenShot](/Screenshots/6.png)
 
 # Front end set up 
 ### Install npm dependencies
