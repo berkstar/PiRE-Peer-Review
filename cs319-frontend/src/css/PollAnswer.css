@@ -1,0 +1,15 @@
+.PollAnswer {
+    text-align: center;
+    display: flex;
+  }
+  
+  .poll_answers_div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    overflow-y: hidden;
+    text-align: center;
+  }
+
+  

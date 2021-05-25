@@ -1,0 +1,31 @@
+.PollForm {
+    display: flex;
+    text-align: center;
+  }
+  
+  .PollCreation {
+    margin: auto;
+    margin-top: 10%;
+  }
+  
+  
+  #submitBtn {
+    margin-top: 10%;
+    margin-left: 80%;
+  }
+  
+  .PirePollHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #addOptionButton span {
+    background-color: blue;
+  }
+  
+  #deleteOptionButton {
+    align-self: left;
+  }
+
+  

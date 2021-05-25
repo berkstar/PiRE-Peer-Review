@@ -1,0 +1,55 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  box-shadow: var(--boxshadow);
+  background-color: white;
+}
+
+.nav_buttons_ul {
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  list-style: none;
+  display: flex;
+}
+
+.logout_buttons_ul{
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  list-style: none;
+  display: flex;
+}
+.logout_buttons_ul li{
+  margin-left: auto;
+}
+
+.nav_buttons_ul > .nav_button {
+  margin-right: 20px;
+}
+
+.nav h1{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#logoutbtn {
+  list-style: none;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+#btn1 {
+  border-radius: 10px;
+  background-color: rgb(175, 166, 37);
+}
+
+.instructor_header_buttons{
+  display: flex;
+}
+
+#periodButton{
+  margin-left: 20px;
+}

@@ -1,0 +1,262 @@
+.poll_item {
+    margin-bottom: 20px;
+    margin-left: 20%;
+    border-radius: 5px;
+    margin-right: 20%;
+    border-width: 2px;
+    border-style: groove;
+    border-color: #9452a5a0;
+    cursor: pointer;
+    background-color: #8ec5fc;
+    background-image: linear-gradient(135deg, #9452a5a0 10%, #dfacdb44 100%);
+
+}
+
+.poll_item1 {
+    margin-bottom: 20px;
+    margin-left: 20%;
+    border-radius: 5px;
+    margin-right: 20%;
+    background-color: white;
+    border-color: #1f2124;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.poll_item2 {
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: #002661;
+    background-color: #8ec5fc;
+    background-image: linear-gradient(135deg, #002661 10%, #92ffc0 100%);
+    cursor: pointer;
+}
+
+.poll_item_name {
+    height: fit-content;
+    text-align: center;
+    width: 100%;
+}
+
+.poll_item_name h3 {
+    color: white;
+}
+
+.poll_item1 .poll_item_name h3 {
+    font-size: 1.4em;
+    color: black;
+}
+
+#memcount {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.4rem;
+    margin-right: 30px;
+    color: #1f2124;
+    margin-left: auto;
+}
+
+#votecount {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.4rem;
+    margin-right: 30px;
+    color: #1f2124;
+    margin-left: auto;
+}
+
+.member {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    margin-bottom: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border: double 4px transparent;
+    border-radius: 80px;
+    border-color: #2c2f35;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#member_link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.member .member_image {
+    width: 50px;
+    background-color: white;
+    height: 50px;
+    margin: 10px;
+    margin-right: -50px;
+    border-radius: 100%;
+    display: flex;
+}
+
+.member .member_image #member_icon {
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.member .member_name {
+    margin: auto;
+    height: fit-content;
+}
+
+.member .member_name h3 {
+    font-size: 1.2em;
+}
+
+#linkGroup {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#group_name {
+    font-size: 1.2rem;
+}
+
+#document_link {
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.member :hover {
+    border-radius: 80px;
+    background-color: #ddedfd;
+}
+
+.review_div{
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    margin-bottom: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border: double 4px transparent;
+    border-radius: 80px;
+    border-color: #2c2f35;
+    border-style: solid;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.review_div :hover {
+    border-radius: 80px;
+    background-color: #ddedfd;
+}
+
+.review_texts {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#review_name {
+    width: fit-content;
+    align-self: center;
+}
+
+#review_content {
+    margin: auto;
+    margin-bottom: 5px;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.review_content_popup{
+    font-size: 2rem;
+}
+
+#document_review_object{
+    text-align: center;
+}
+
+.member_actions{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.member_actions{
+    display: flex;
+    flex-direction: column;
+}
+
+.member_actions  #group_button {
+    width: 12em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: double 4px transparent;
+    border-radius: 8px;
+    border-color: darkgray;
+    border-style: solid;
+    cursor: pointer;
+  }
+
+  .header{
+      display: flex;
+      flex-direction: column;
+  }
+
+  #member_profile_view{
+      width: 60%;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .member_friend{
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .input_friend{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .friend_member_radio{
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .friend_member_radio span{
+      font-size: 1.4rem;
+  }
+
+  .input_friend textarea{
+      max-width: 100%;
+      height: 90px;
+      width: 90%;
+      margin-left: 5%;
+  }
+
